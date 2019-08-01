@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="musica"
+        android:title="Reproducir musica"
+        android:summary="Se repreduce musica de fondo" />
+    <ListPreference
+        android:key="graficos"
+        android:title="Tipo de graficos"
+        android:summary="Se escoge la representacion de grafico"
+        android:entries="@array/tiposGraficos"
+        android:entryValues="@array/tiposGraficosValores"
+        android:defaultValues="1" />
+
+
+
+</PreferenceScreen>
